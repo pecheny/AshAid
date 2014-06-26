@@ -14,10 +14,13 @@ Example:
 -------
 
 systems.json:
+```json
 	{
 	     "ExampleSystem":100
 	}
+```
 scene.json:
+```json
 	 {
 	     "root": [
 	         {
@@ -26,7 +29,9 @@ scene.json:
 	         }
 	     ]
 	 }
+```
 Main.hx:
+```js
 	class Main extends ApplicationBase {
 		public function new() {
 			super();
@@ -34,11 +39,13 @@ Main.hx:
 			builder.buildSceneFromFile('scene.json');
 		}
 	}
+```
 
 Presets example:
 ----------------
 
 scene.json:
+```json
 	 {
 	     "root": [
 	         {
@@ -54,11 +61,13 @@ scene.json:
 	        "ExampleComponent":""
 	        }
 	 }
+```	 
 
 Component filling example:
 -------------------------
 
  scene.json:
+```json
  	 {
  	     "preset": {
  	        "ExampleComponent":{
@@ -71,3 +80,4 @@ Component filling example:
  	        }
         }
  	 }
+```
