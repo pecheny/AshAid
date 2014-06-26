@@ -71,13 +71,13 @@ Component filling example:
  	 {
  	     "preset": {
  	        "ExampleComponent":{
-				numberField: 10,
-				colorIntField: "0x909090",
-				arrayField:[1, 2, 3],
-				stringField:"String",
+				"numberField": 10,
+				"colorIntField": "0x909090",
+				"arrayField":[1, 2, 3],
+				"stringField":"String",
 				"protos":["AnotherPreset"],
 				"entity":"entity:EntityName"
- 	        }
-        }
+ 	        	}
+        	}
  	 }
 ```
