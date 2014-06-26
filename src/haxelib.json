@@ -1,0 +1,15 @@
+{
+    "name": "ash-aid",
+    "url": "https://github.com/pecheny/AshAid",
+    "license": "MIT",
+    "tags": ["entity", "component", "system", "game"],
+    "description": "",
+    "version": "0.1.0",
+    "releasenote": "Initial",
+    "contributors": ["pecheny"],
+    "dependencies": {
+        "ash": "1.5.3",
+        "openfl": "2.0.0",
+        "minject": "1.2.3"
+    }
+}
